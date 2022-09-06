@@ -1,7 +1,7 @@
 # Aerosol impacts on stratocumulus-to-cumulus transition using LES
 
 ### Descriptions:
-This project is a numerical modeling work at UW to study aerosol-cloud interaction over Northeast Pacific. The Large Eddy Simulation (LES) experiments are conducted using SAM-UW. Only the post-processing of modeling outputs is documented here. If you are interested in reproducing the model outputs, check out the relevant Zenodo repository:
+This project is a numerical modeling work at UW to study aerosol-cloud interaction (ACI) over Northeast Pacific. The Large Eddy Simulation (LES) experiments are conducted using SAM-UW model. Only the post-processing of modeling outputs is documented here. If you are interested in reproducing the model outputs, check out the relevant Zenodo repository:
 https://doi.org/10.5281/zenodo.7005166
 
 ### Author:
@@ -14,8 +14,8 @@ https://doi.org/10.5281/zenodo.7005166
 
 ### Inputs:
 - SAM-UW output files in NetCDF format.
-- SAM-UW forcing file in NetCDF format.
-- Observational and reanalysis data.
+- SAM-UW forcing files in NetCDF format.
+- Observational and reanalysis data files in NetCDF format.
 
 ### Requirements:
 - Python3 in Jupyter Notebook (installed by Anaconda).
