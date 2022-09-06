@@ -8,9 +8,12 @@ https://doi.org/10.5281/zenodo.7005166
 - Ehsan Erfani
 
 ### Codes:
-- output_RF06_Tr2p3_multi_cases_NEW_Github.ipynb: Use LES SAM UW model outputs and observations and perform post-processing analysis such as time series and time-height plots for the L06 case.
-- output_RF10Tr2p3_multi_cases_NEW_Github.ipynb: Same as above, but for L10 case.
-- Indirect_effects_obs_NEW_Github.ipynb: Use all LES runs and observations and provide numerous results such as time-averaged plots, transition analysis, decomposition to various effects, PDF calculations, maps, and cross-sections.
+- output_RF06_Tr2p3_multi_cases_NEW_Github.ipynb: 
+Use LES SAM UW model outputs and observations and perform post-processing analysis such as time series and time-height plots for the L06 case.
+- output_RF10Tr2p3_multi_cases_NEW_Github.ipynb: 
+Same as above, but for L10 case.
+- Indirect_effects_obs_NEW_Github.ipynb: 
+Use all LES runs and observations and provide numerous results such as time-averaged plots, transition analysis, decomposition to various effects, PDF calculations, maps, and cross-sections.
 
 ### Inputs:
 - SAM-UW output files in NetCDF format.
