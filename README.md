@@ -1,24 +1,25 @@
-# The Strength of Low-Cloud Feedbacks and Tropical Climate: A CESM Sensitivity Study (project ended in 2019).
+# Aerosol impacts on stratocumulus-to-cumulus transition using LES
 
 ### Descriptions:
-This project is a global climate modeling at GMU to study the sensitivity of low cloud feedback as a function of global sea surface temperature (SST). If you are interested in reproducing the model outputs, contact the author.
+This project is a numerical modeling work at UW to study aerosol-cloud interaction (ACI) over Northeast Pacific. The Large Eddy Simulation (LES) experiments are conducted using SAM-UW model. Only the post-processing of modeling outputs is documented here. If you are interested in reproducing the model outputs, check out the relevant Zenodo repository:
+https://doi.org/10.5281/zenodo.7005166
 
 ### Author:
 - Ehsan Erfani
 
 ### Codes:
-- Numerous MATLAB codes were developed for post-processing, visualization, and various statistical analysis. 
+- output_RF06_Tr2p3_multi_cases_NEW_Github.ipynb: Use LES SAM UW model outputs and observations and perform post-processing analysis such as time series and time-height plots for the L06 case.
+- output_RF10Tr2p3_multi_cases_NEW_Github.ipynb: Same as above, but for L10 case.
+- Indirect_effects_obs_NEW_Github.ipynb: Use all LES runs and observations and provide numerous results such as time-averaged plots, transition analysis, decomposition to various effects, PDF calculations, maps, and cross-sections.
 
 ### Inputs:
-- CESM outputs in NetCDF format.
+- SAM-UW output files in NetCDF format.
+- SAM-UW forcing files in NetCDF format.
 - Observational and reanalysis data files in NetCDF format.
 
 ### Requirements:
-- MATLAB
+- Python3 in Jupyter Notebook (installed by Anaconda).
+- See the beginning of each code for the required Python3 libraries.
 
 ### The analyses are featured in:
-Erfani, E., Burls, N. (2019). The Strength of Low-Cloud Feedbacks and Tropical Climate: A CESM Sensitivity Study, Journal of Climate, 32 (9), 2497-2516, https://doi.org/10.1175/JCLI-D-18-0551.1
-
-### Abstract:
-
-Variability in the strength of low-cloud feedbacks across climate models is the primary contributor to the spread in their estimates of equilibrium climate sensitivity (ECS). This raises the question: What are the regional implications for key features of tropical climate of globally weak versus strong low-cloud feedbacks in response to greenhouse gas–induced warming? To address this question and formalize our understanding of cloud controls on tropical climate, we perform a suite of idealized fully coupled and slab-ocean climate simulations across which we systematically scale the strength of the low-cloud-cover feedback under abrupt 2 × CO2 forcing within a single model, thereby isolating the impact of low-cloud feedback strength. The feedback strength is varied by modifying the stratus cloud fraction so that it is a function of not only local conditions but also global temperature in a series of abrupt 2 × CO2 sensitivity experiments. The unperturbed decrease in low cloud cover (LCC) under 2 × CO2 is greatest in the mid- and high-latitude oceans, and the subtropical eastern Pacific and Atlantic, a pattern that is magnified as the feedback strength is scaled. Consequently, sea surface temperature (SST) increases more in these regions as well as the Pacific cold tongue. As the strength of the low-cloud feedback increases this results in not only increased ECS, but also an enhanced reduction of the large-scale zonal and meridional SST gradients (structural climate sensitivity), with implications for the atmospheric Hadley and Walker circulations, as well as the hydrological cycle. The relevance of our results to simulating past warm climate is also discussed.
+Erfani E., P. Blossey, R. Wood, J. Mohrmann, S. Doherty, M. Wyant, K. O, 2022: Simulating aerosol lifecycle impacts on the subtropical stratocumulus-to-cumulus transition using large-eddy simulations, J. Geophys. Res. Atmos. https://doi.org/10.1002/essoar.10511558.1
