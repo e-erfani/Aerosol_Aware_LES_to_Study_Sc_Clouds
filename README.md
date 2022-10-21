@@ -22,4 +22,4 @@ https://doi.org/10.5281/zenodo.7005166
 - See the beginning of each code for the required Python3 libraries.
 
 ### The analyses are featured in:
-Erfani E., P. Blossey, R. Wood, J. Mohrmann, S. Doherty, M. Wyant, K. O, 2022: Simulating aerosol lifecycle impacts on the subtropical stratocumulus-to-cumulus transition using large-eddy simulations, J. Geophys. Res. Atmos. https://doi.org/10.1002/essoar.10511558.1
+Erfani, E., Blossey, P., Wood, R., Mohrmann, J., Doherty, S. J., Wyant, M., & Kuan-Ting, O. (2022). Simulating aerosol lifecycle impacts on the subtropical stratocumulus-to-cumulus transition using large-eddy simulations. Journal of Geophysical Research: Atmospheres, 127, e2022JD037258. https://doi.org/10.1029/2022JD037258
